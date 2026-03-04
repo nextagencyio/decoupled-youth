@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Bright Futures Youth Foundation",
+          "path": "/homepage",
+          "heroTitle": "Empowering Young Lives",
+          "heroSubtitle": "Building Tomorrow's Leaders Today",
+          "heroDescription": {
+            "processed": "<p>Bright Futures Youth Foundation provides mentoring, education, and life-skills programs that help young people reach their full potential. Join us in making a lasting difference in our community.</p>",
+            "summary": "Bright Futures Youth Foundation provides mentoring, education, and life-skills programs that help young people reach their full potential. Join us in making a lasting difference in our community."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-youth-served",
+              "title": "",
+              "number": "2,500+",
+              "label": "Youth Served Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-mentors",
+              "title": "",
+              "number": "180+",
+              "label": "Active Mentors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-programs",
+              "title": "",
+              "number": "25+",
+              "label": "Active Programs"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-graduation",
+              "title": "",
+              "number": "95%",
+              "label": "High School Graduation Rate"
+            }
+          ],
+          "featuredProgramsTitle": "Our Programs",
+          "ctaTitle": "Ready to Make a Difference?",
+          "ctaDescription": {
+            "processed": "<p>Whether you want to volunteer as a mentor, enroll a young person in our programs, or support our mission with a donation, there are many ways to get involved.</p>",
+            "summary": "Whether you want to volunteer as a mentor, enroll a young person in our programs, or support our mission with a donation, there are many ways to get involved."
+          },
+          "ctaPrimary": "Get Involved",
+          "ctaSecondary": "Contact Us"
+        }
+      ]
+    }
+  }
+}

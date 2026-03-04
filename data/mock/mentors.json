@@ -1,0 +1,169 @@
+{
+  "data": {
+    "nodeMentors": {
+      "__typename": "NodeMentorConnection",
+      "nodes": [
+        {
+          "__typename": "NodeMentor",
+          "id": "mentor-williams",
+          "title": "Marcus Williams",
+          "path": "/mentors/marcus-williams",
+          "body": {
+            "processed": "<p>Marcus is a software engineer and passionate advocate for youth STEM education. He has been volunteering with Bright Futures for over five years, helping dozens of young people discover their love of technology and coding. His patient, hands-on approach makes complex topics accessible and fun.</p>",
+            "summary": "Marcus is a software engineer and passionate advocate for youth STEM education. He has been volunteering with Bright Futures for over five years, helping dozens of young people discover their love of "
+          },
+          "specialty": "STEM Education & Coding",
+          "email": "marcus@brightfutures.org",
+          "phone": "(555) 301-4567",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Marcus Williams - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 5
+        },
+        {
+          "__typename": "NodeMentor",
+          "id": "mentor-chen",
+          "title": "Lisa Chen",
+          "path": "/mentors/lisa-chen",
+          "body": {
+            "processed": "<p>Lisa is a high school guidance counselor and certified youth development specialist. She brings her professional expertise to her volunteer role, helping teens navigate academic challenges, set career goals, and build the confidence they need to succeed.</p>",
+            "summary": "Lisa is a high school guidance counselor and certified youth development specialist. She brings her professional expertise to her volunteer role, helping teens navigate academic challenges, set career"
+          },
+          "specialty": "Academic Mentoring & College Prep",
+          "email": "lisa@brightfutures.org",
+          "phone": "(555) 302-5678",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Lisa Chen - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 8
+        },
+        {
+          "__typename": "NodeMentor",
+          "id": "mentor-rodriguez",
+          "title": "Carlos Rodriguez",
+          "path": "/mentors/carlos-rodriguez",
+          "body": {
+            "processed": "<p>Carlos is a professional musician and music educator who leads our creative arts mentoring track. A former program participant himself, Carlos understands firsthand the transformative power of mentorship and creative expression. He inspires young people to find their voice through art and music.</p>",
+            "summary": "Carlos is a professional musician and music educator who leads our creative arts mentoring track. A former program participant himself, Carlos understands firsthand the transformative power of mentors"
+          },
+          "specialty": "Creative Arts & Music",
+          "email": "carlos@brightfutures.org",
+          "phone": "(555) 303-6789",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+            "alt": "Carlos Rodriguez - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 6
+        },
+        {
+          "__typename": "NodeMentor",
+          "id": "mentor-thompson",
+          "title": "Sarah Thompson",
+          "path": "/mentors/sarah-thompson",
+          "body": {
+            "processed": "<p>Sarah is a community organizer and leadership coach with a background in social work. She leads our Leadership Academy mentoring track, helping young people develop communication skills, civic engagement, and a sense of personal responsibility.</p>",
+            "summary": "Sarah is a community organizer and leadership coach with a background in social work. She leads our Leadership Academy mentoring track, helping young people develop communication skills, civic engagem"
+          },
+          "specialty": "Leadership & Community Engagement",
+          "email": "sarah@brightfutures.org",
+          "phone": "(555) 304-7890",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Thompson - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 10
+        }
+      ]
+    }
+  }
+}

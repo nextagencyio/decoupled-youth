@@ -1,0 +1,141 @@
+{
+  "data": {
+    "nodeSuccessStories": {
+      "__typename": "NodeSuccessStoryConnection",
+      "nodes": [
+        {
+          "__typename": "NodeSuccessStory",
+          "id": "story-jaylen",
+          "title": "Jaylen Finds His Passion for Coding",
+          "path": "/success-stories/jaylen-finds-his-passion",
+          "body": {
+            "processed": "<p>When Jaylen joined our STEM Explorers program at age 14, he was struggling in school and lacked direction. Through patient mentoring from Marcus Williams and the hands-on coding projects in our program, Jaylen discovered a natural talent for programming.</p><p>\"Before Bright Futures, I didn't think college was for me,\" Jaylen says. \"My mentor showed me that I could build things with code, and that changed everything.\"</p><p>Today, Jaylen is a sophomore at State University studying computer science on a full scholarship. He returns to Bright Futures every summer to mentor younger participants.</p>",
+            "summary": "When Jaylen joined our STEM Explorers program at age 14, he was struggling in school and lacked direction. Through patient mentoring from Marcus Williams and the hands-on coding projects in our progra"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+            "alt": "Jaylen coding at his computer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true,
+          "participantName": "Jaylen M.",
+          "programArea": [
+            {
+              "id": "stem-education",
+              "name": "stem-education"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeSuccessStory",
+          "id": "story-maria",
+          "title": "Maria Leads the Way",
+          "path": "/success-stories/maria-leads-the-way",
+          "body": {
+            "processed": "<p>Maria was a shy 12-year-old when she first walked through our doors. Through the Leadership Academy, she gradually found her voice and discovered a passion for community service. Her mentor, Sarah Thompson, helped her develop the confidence to speak up and take initiative.</p><p>By her senior year of high school, Maria had organized three community clean-up events, started a peer tutoring group, and been elected student body president. She credits the Leadership Academy with giving her the tools to lead.</p><p>\"Bright Futures didn't just give me a mentor,\" Maria explains. \"They gave me a family that believed in me when I didn't believe in myself.\"</p>",
+            "summary": "Maria was a shy 12-year-old when she first walked through our doors. Through the Leadership Academy, she gradually found her voice and discovered a passion for community service. Her mentor, Sarah Tho"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+            "alt": "Maria speaking at a community event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true,
+          "participantName": "Maria G.",
+          "programArea": [
+            {
+              "id": "leadership",
+              "name": "leadership"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeSuccessStory",
+          "id": "story-devon",
+          "title": "Devon's Artistic Transformation",
+          "path": "/success-stories/devon-art-transformation",
+          "body": {
+            "processed": "<p>Devon came to the Creative Arts Workshop dealing with anger and behavioral issues at school. Art gave him an outlet to express his emotions constructively. Under the guidance of mentor Carlos Rodriguez, Devon channeled his energy into painting and digital art.</p><p>His artwork was selected for the city's youth art exhibition, and he won a regional competition that earned him a scholarship to the School of Visual Arts summer program. Devon now aspires to become a graphic designer.</p><p>\"Art saved me,\" Devon says simply. \"Carlos taught me that my feelings could become something beautiful.\"</p>",
+            "summary": "Devon came to the Creative Arts Workshop dealing with anger and behavioral issues at school. Art gave him an outlet to express his emotions constructively. Under the guidance of mentor Carlos Rodrigue"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Devon working on artwork",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false,
+          "participantName": "Devon T.",
+          "programArea": [
+            {
+              "id": "arts-culture",
+              "name": "arts-culture"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

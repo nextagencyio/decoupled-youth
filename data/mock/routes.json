@@ -1,0 +1,841 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Bright Futures Youth Foundation",
+          "path": "/homepage",
+          "heroTitle": "Empowering Young Lives",
+          "heroSubtitle": "Building Tomorrow's Leaders Today",
+          "heroDescription": {
+            "processed": "<p>Bright Futures Youth Foundation provides mentoring, education, and life-skills programs that help young people reach their full potential. Join us in making a lasting difference in our community.</p>",
+            "summary": "Bright Futures Youth Foundation provides mentoring, education, and life-skills programs that help young people reach their full potential. Join us in making a lasting difference in our community."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-youth-served",
+              "title": "",
+              "number": "2,500+",
+              "label": "Youth Served Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-mentors",
+              "title": "",
+              "number": "180+",
+              "label": "Active Mentors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-programs",
+              "title": "",
+              "number": "25+",
+              "label": "Active Programs"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-graduation",
+              "title": "",
+              "number": "95%",
+              "label": "High School Graduation Rate"
+            }
+          ],
+          "featuredProgramsTitle": "Our Programs",
+          "ctaTitle": "Ready to Make a Difference?",
+          "ctaDescription": {
+            "processed": "<p>Whether you want to volunteer as a mentor, enroll a young person in our programs, or support our mission with a donation, there are many ways to get involved.</p>",
+            "summary": "Whether you want to volunteer as a mentor, enroll a young person in our programs, or support our mission with a donation, there are many ways to get involved."
+          },
+          "ctaPrimary": "Get Involved",
+          "ctaSecondary": "Contact Us"
+        }
+      }
+    }
+  },
+  "/programs/stem-explorers": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-stem",
+          "title": "STEM Explorers",
+          "path": "/programs/stem-explorers",
+          "body": {
+            "processed": "<p>Our STEM Explorers program introduces young people to science, technology, engineering, and mathematics through hands-on projects and real-world problem solving. Participants build robots, code apps, conduct experiments, and develop critical thinking skills that will serve them throughout their lives.</p><h2>Program Highlights</h2><ul><li>Weekly hands-on lab sessions</li><li>Annual science fair competition</li><li>Partnerships with local tech companies</li><li>College preparation workshops</li></ul>",
+            "summary": "Our STEM Explorers program introduces young people to science, technology, engineering, and mathematics through hands-on projects and real-world problem solving. Participants build robots, code apps, "
+          },
+          "programArea": [
+            {
+              "id": "stem-education",
+              "name": "stem-education"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Tuesdays & Thursdays, 4:00 PM - 6:00 PM",
+          "location": "Bright Futures Community Center",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+            "alt": "STEM Explorers program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/leadership-academy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-leadership",
+          "title": "Leadership Academy",
+          "path": "/programs/leadership-academy",
+          "body": {
+            "processed": "<p>The Leadership Academy develops confident, compassionate leaders through team-building challenges, public speaking workshops, community service projects, and mentorship from successful professionals. Participants learn to set goals, resolve conflicts, and inspire positive change.</p><h2>What You'll Gain</h2><ul><li>Public speaking and communication skills</li><li>Team leadership and collaboration</li><li>Community service experience</li><li>Personal goal setting and accountability</li></ul>",
+            "summary": "The Leadership Academy develops confident, compassionate leaders through team-building challenges, public speaking workshops, community service projects, and mentorship from successful professionals. "
+          },
+          "programArea": [
+            {
+              "id": "leadership",
+              "name": "leadership"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Wednesdays, 5:00 PM - 7:00 PM",
+          "location": "Downtown Youth Hub",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+            "alt": "Leadership Academy program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/creative-arts-workshop": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-arts",
+          "title": "Creative Arts Workshop",
+          "path": "/programs/creative-arts-workshop",
+          "body": {
+            "processed": "<p>Our Creative Arts Workshop provides a safe space for young people to express themselves through painting, music, theater, and digital media. Guided by professional artists, participants discover their creative talents and build self-confidence through artistic achievement.</p><h2>Activities</h2><ul><li>Visual arts and painting studios</li><li>Music production and performance</li><li>Theater and drama workshops</li><li>Digital photography and filmmaking</li></ul>",
+            "summary": "Our Creative Arts Workshop provides a safe space for young people to express themselves through painting, music, theater, and digital media. Guided by professional artists, participants discover their"
+          },
+          "programArea": [
+            {
+              "id": "arts-culture",
+              "name": "arts-culture"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "children-6-12",
+              "name": "children-6-12"
+            },
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Mondays & Fridays, 3:30 PM - 5:30 PM",
+          "location": "Bright Futures Arts Center",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Creative Arts Workshop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/academic-tutoring": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-tutoring",
+          "title": "Academic Tutoring & Homework Help",
+          "path": "/programs/academic-tutoring",
+          "body": {
+            "processed": "<p>Our Academic Tutoring program pairs trained volunteer tutors with students who need extra support in reading, math, and other subjects. We provide a quiet, encouraging environment where young people can build academic confidence and develop strong study habits.</p><h2>Services</h2><ul><li>One-on-one and small group tutoring</li><li>Homework help and study skills</li><li>Test preparation for standardized exams</li><li>College application assistance</li></ul>",
+            "summary": "Our Academic Tutoring program pairs trained volunteer tutors with students who need extra support in reading, math, and other subjects. We provide a quiet, encouraging environment where young people c"
+          },
+          "programArea": [
+            {
+              "id": "academic-support",
+              "name": "academic-support"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "children-6-12",
+              "name": "children-6-12"
+            },
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Monday - Thursday, 3:00 PM - 6:00 PM",
+          "location": "Bright Futures Learning Center",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Academic Tutoring program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/mentors/marcus-williams": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMentor",
+          "id": "mentor-williams",
+          "title": "Marcus Williams",
+          "path": "/mentors/marcus-williams",
+          "body": {
+            "processed": "<p>Marcus is a software engineer and passionate advocate for youth STEM education. He has been volunteering with Bright Futures for over five years, helping dozens of young people discover their love of technology and coding. His patient, hands-on approach makes complex topics accessible and fun.</p>",
+            "summary": "Marcus is a software engineer and passionate advocate for youth STEM education. He has been volunteering with Bright Futures for over five years, helping dozens of young people discover their love of "
+          },
+          "specialty": "STEM Education & Coding",
+          "email": "marcus@brightfutures.org",
+          "phone": "(555) 301-4567",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Marcus Williams - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 5
+        }
+      }
+    }
+  },
+  "/mentors/lisa-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMentor",
+          "id": "mentor-chen",
+          "title": "Lisa Chen",
+          "path": "/mentors/lisa-chen",
+          "body": {
+            "processed": "<p>Lisa is a high school guidance counselor and certified youth development specialist. She brings her professional expertise to her volunteer role, helping teens navigate academic challenges, set career goals, and build the confidence they need to succeed.</p>",
+            "summary": "Lisa is a high school guidance counselor and certified youth development specialist. She brings her professional expertise to her volunteer role, helping teens navigate academic challenges, set career"
+          },
+          "specialty": "Academic Mentoring & College Prep",
+          "email": "lisa@brightfutures.org",
+          "phone": "(555) 302-5678",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Lisa Chen - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 8
+        }
+      }
+    }
+  },
+  "/mentors/carlos-rodriguez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMentor",
+          "id": "mentor-rodriguez",
+          "title": "Carlos Rodriguez",
+          "path": "/mentors/carlos-rodriguez",
+          "body": {
+            "processed": "<p>Carlos is a professional musician and music educator who leads our creative arts mentoring track. A former program participant himself, Carlos understands firsthand the transformative power of mentorship and creative expression. He inspires young people to find their voice through art and music.</p>",
+            "summary": "Carlos is a professional musician and music educator who leads our creative arts mentoring track. A former program participant himself, Carlos understands firsthand the transformative power of mentors"
+          },
+          "specialty": "Creative Arts & Music",
+          "email": "carlos@brightfutures.org",
+          "phone": "(555) 303-6789",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+            "alt": "Carlos Rodriguez - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 6
+        }
+      }
+    }
+  },
+  "/mentors/sarah-thompson": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMentor",
+          "id": "mentor-thompson",
+          "title": "Sarah Thompson",
+          "path": "/mentors/sarah-thompson",
+          "body": {
+            "processed": "<p>Sarah is a community organizer and leadership coach with a background in social work. She leads our Leadership Academy mentoring track, helping young people develop communication skills, civic engagement, and a sense of personal responsibility.</p>",
+            "summary": "Sarah is a community organizer and leadership coach with a background in social work. She leads our Leadership Academy mentoring track, helping young people develop communication skills, civic engagem"
+          },
+          "specialty": "Leadership & Community Engagement",
+          "email": "sarah@brightfutures.org",
+          "phone": "(555) 304-7890",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Thompson - Mentor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "yearsExperience": 10
+        }
+      }
+    }
+  },
+  "/events/annual-gala-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Annual Bright Futures Gala",
+          "path": "/events/annual-gala-2026",
+          "body": {
+            "processed": "<p>Join us for an inspiring evening celebrating the achievements of our youth participants and the generous supporters who make our work possible. The gala features dinner, live entertainment by our Creative Arts Workshop students, and a silent auction with proceeds benefiting our scholarship fund.</p><h2>Event Details</h2><ul><li>6:00 PM - Cocktail Reception</li><li>7:00 PM - Dinner & Program</li><li>8:30 PM - Student Performances</li><li>9:00 PM - Silent Auction</li></ul>",
+            "summary": "Join us for an inspiring evening celebrating the achievements of our youth participants and the generous supporters who make our work possible. The gala features dinner, live entertainment by our Crea"
+          },
+          "eventDate": {
+            "timestamp": 1778972400
+          },
+          "endDate": {
+            "timestamp": 1778986800
+          },
+          "location": "Grand Ballroom, City Convention Center",
+          "eventType": [
+            {
+              "id": "fundraiser",
+              "name": "fundraiser"
+            }
+          ],
+          "registrationUrl": "https://brightfutures.org/gala-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Annual Bright Futures Gala",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/summer-camp-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-summer-camp",
+          "title": "Summer Adventure Camp 2026",
+          "path": "/events/summer-camp-2026",
+          "body": {
+            "processed": "<p>Our week-long summer camp combines outdoor adventure, team building, and skill-building workshops in a fun, supportive environment. Campers will enjoy hiking, canoeing, arts and crafts, and leadership activities under the guidance of trained counselors and mentors.</p><p>Scholarships are available for families who qualify. No child will be turned away due to inability to pay.</p>",
+            "summary": "Our week-long summer camp combines outdoor adventure, team building, and skill-building workshops in a fun, supportive environment. Campers will enjoy hiking, canoeing, arts and crafts, and leadership"
+          },
+          "eventDate": {
+            "timestamp": 1783947600
+          },
+          "endDate": {
+            "timestamp": 1784322000
+          },
+          "location": "Pine Ridge Outdoor Center",
+          "eventType": [
+            {
+              "id": "camp",
+              "name": "camp"
+            }
+          ],
+          "registrationUrl": "https://brightfutures.org/summer-camp",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=800&q=80",
+            "alt": "Summer Adventure Camp",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/mentor-orientation-spring": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-mentor-training",
+          "title": "Spring Mentor Orientation",
+          "path": "/events/mentor-orientation-spring",
+          "body": {
+            "processed": "<p>Interested in becoming a mentor? Join our spring orientation session to learn about our programs, mentoring best practices, and the rewarding experience of guiding young people toward success. All new volunteers must complete this orientation before being paired with a mentee.</p><h2>Agenda</h2><ul><li>9:00 AM - Welcome & Foundation Overview</li><li>10:00 AM - Mentoring Best Practices</li><li>11:30 AM - Safety Training</li><li>12:30 PM - Lunch & Networking</li><li>1:30 PM - Program Placement</li></ul>",
+            "summary": "Interested in becoming a mentor? Join our spring orientation session to learn about our programs, mentoring best practices, and the rewarding experience of guiding young people toward success. All new"
+          },
+          "eventDate": {
+            "timestamp": 1775916000
+          },
+          "endDate": {
+            "timestamp": 1775937600
+          },
+          "location": "Bright Futures Community Center",
+          "eventType": [
+            {
+              "id": "workshop",
+              "name": "workshop"
+            }
+          ],
+          "registrationUrl": "https://brightfutures.org/mentor-orientation",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&q=80",
+            "alt": "Mentor Orientation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/success-stories/jaylen-finds-his-passion": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSuccessStory",
+          "id": "story-jaylen",
+          "title": "Jaylen Finds His Passion for Coding",
+          "path": "/success-stories/jaylen-finds-his-passion",
+          "body": {
+            "processed": "<p>When Jaylen joined our STEM Explorers program at age 14, he was struggling in school and lacked direction. Through patient mentoring from Marcus Williams and the hands-on coding projects in our program, Jaylen discovered a natural talent for programming.</p><p>\"Before Bright Futures, I didn't think college was for me,\" Jaylen says. \"My mentor showed me that I could build things with code, and that changed everything.\"</p><p>Today, Jaylen is a sophomore at State University studying computer science on a full scholarship. He returns to Bright Futures every summer to mentor younger participants.</p>",
+            "summary": "When Jaylen joined our STEM Explorers program at age 14, he was struggling in school and lacked direction. Through patient mentoring from Marcus Williams and the hands-on coding projects in our progra"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+            "alt": "Jaylen coding at his computer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true,
+          "participantName": "Jaylen M.",
+          "programArea": [
+            {
+              "id": "stem-education",
+              "name": "stem-education"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/success-stories/maria-leads-the-way": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSuccessStory",
+          "id": "story-maria",
+          "title": "Maria Leads the Way",
+          "path": "/success-stories/maria-leads-the-way",
+          "body": {
+            "processed": "<p>Maria was a shy 12-year-old when she first walked through our doors. Through the Leadership Academy, she gradually found her voice and discovered a passion for community service. Her mentor, Sarah Thompson, helped her develop the confidence to speak up and take initiative.</p><p>By her senior year of high school, Maria had organized three community clean-up events, started a peer tutoring group, and been elected student body president. She credits the Leadership Academy with giving her the tools to lead.</p><p>\"Bright Futures didn't just give me a mentor,\" Maria explains. \"They gave me a family that believed in me when I didn't believe in myself.\"</p>",
+            "summary": "Maria was a shy 12-year-old when she first walked through our doors. Through the Leadership Academy, she gradually found her voice and discovered a passion for community service. Her mentor, Sarah Tho"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+            "alt": "Maria speaking at a community event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": true,
+          "participantName": "Maria G.",
+          "programArea": [
+            {
+              "id": "leadership",
+              "name": "leadership"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/success-stories/devon-art-transformation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSuccessStory",
+          "id": "story-devon",
+          "title": "Devon's Artistic Transformation",
+          "path": "/success-stories/devon-art-transformation",
+          "body": {
+            "processed": "<p>Devon came to the Creative Arts Workshop dealing with anger and behavioral issues at school. Art gave him an outlet to express his emotions constructively. Under the guidance of mentor Carlos Rodriguez, Devon channeled his energy into painting and digital art.</p><p>His artwork was selected for the city's youth art exhibition, and he won a regional competition that earned him a scholarship to the School of Visual Arts summer program. Devon now aspires to become a graphic designer.</p><p>\"Art saved me,\" Devon says simply. \"Carlos taught me that my feelings could become something beautiful.\"</p>",
+            "summary": "Devon came to the Creative Arts Workshop dealing with anger and behavioral issues at school. Art gave him an outlet to express his emotions constructively. Under the guidance of mentor Carlos Rodrigue"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Devon working on artwork",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "featured": false,
+          "participantName": "Devon T.",
+          "programArea": [
+            {
+              "id": "arts-culture",
+              "name": "arts-culture"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Bright Futures Youth Foundation",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Founded in 2008, Bright Futures Youth Foundation has been transforming young lives in our community through mentoring, education, and enrichment programs. Our mission is to empower youth ages 6-18 with the skills, confidence, and support they need to thrive.</p><h2>Our Mission</h2><p>To provide every young person with access to caring mentors, quality programs, and opportunities that help them discover their potential and build a bright future.</p><h2>Our Values</h2><ul><li><strong>Empowerment</strong> - We believe every young person has unique strengths and potential.</li><li><strong>Community</strong> - We build strong, supportive relationships between youth, mentors, and families.</li><li><strong>Equity</strong> - We ensure all young people have access to our programs regardless of background.</li><li><strong>Excellence</strong> - We hold ourselves to the highest standards in youth development.</li></ul><h2>Our Impact</h2><p>Since 2008, Bright Futures has served over 10,000 young people. 95% of our program participants graduate high school, and 78% go on to college or vocational training. We are proud to have received the National Youth Development Organization of the Year award in 2023.</p>",
+            "summary": "Founded in 2008, Bright Futures Youth Foundation has been transforming young lives in our community through mentoring, education, and enrichment programs. Our mission is to empower youth ages 6-18 wit"
+          }
+        }
+      }
+    }
+  },
+  "/volunteer": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-volunteer",
+          "title": "Volunteer With Us",
+          "path": "/volunteer",
+          "body": {
+            "processed": "<h2>Become a Mentor</h2><p>Our mentors are the heart of everything we do. As a Bright Futures mentor, you'll be matched with a young person based on shared interests and goals. You'll meet regularly, provide guidance, and serve as a positive role model.</p><h2>Requirements</h2><ul><li>Must be at least 21 years old</li><li>Commit to at least 6 months of mentoring</li><li>Pass a background check</li><li>Complete our mentor training program</li><li>Meet with your mentee at least twice per month</li></ul><h2>Other Volunteer Opportunities</h2><ul><li><strong>Tutoring</strong> - Help students with homework and study skills</li><li><strong>Event Support</strong> - Assist with fundraisers and community events</li><li><strong>Workshop Leaders</strong> - Share your professional skills with our youth</li><li><strong>Board Membership</strong> - Help guide our organization's strategic direction</li></ul><p>Ready to get started? Contact our volunteer coordinator at volunteers@brightfutures.org or call (555) 300-1234.</p>",
+            "summary": "Become a MentorOur mentors are the heart of everything we do. As a Bright Futures mentor, you'll be matched with a young person based on shared interests and goals. You'll meet regularly, provide guid"
+          }
+        }
+      }
+    }
+  }
+}

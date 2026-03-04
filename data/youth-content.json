@@ -1,0 +1,537 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Youth foundation homepage with hero, featured programs, and call-to-action",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string",
+          "description": "Main headline (e.g., 'Empowering Young Lives')"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string",
+          "description": "Secondary text below the title"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text",
+          "description": "Longer description for the hero section"
+        },
+        {
+          "id": "stats_items",
+          "label": "Statistics",
+          "type": "paragraph(stat_item)[]",
+          "description": "Key foundation statistics (youth served, mentors, programs, etc.)"
+        },
+        {
+          "id": "featured_programs_title",
+          "label": "Featured Programs Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Section Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "Primary CTA Text",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "Secondary CTA Text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "program",
+      "label": "Youth Program",
+      "description": "Programs offered by the youth foundation",
+      "body": true,
+      "fields": [
+        {
+          "id": "program_area",
+          "label": "Program Area",
+          "type": "term(program_areas)[]",
+          "description": "Area of focus for this program"
+        },
+        {
+          "id": "age_group",
+          "label": "Age Group",
+          "type": "term(age_groups)[]",
+          "description": "Target age group"
+        },
+        {
+          "id": "schedule",
+          "label": "Schedule",
+          "type": "string",
+          "description": "When the program meets"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "mentor",
+      "label": "Mentor",
+      "description": "Mentors and volunteer leaders",
+      "body": true,
+      "fields": [
+        {
+          "id": "specialty",
+          "label": "Specialty",
+          "type": "string",
+          "description": "Area of expertise or mentoring focus"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "string"
+        },
+        {
+          "id": "phone",
+          "label": "Phone",
+          "type": "string"
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image"
+        },
+        {
+          "id": "years_experience",
+          "label": "Years of Experience",
+          "type": "integer",
+          "description": "Years of mentoring experience"
+        }
+      ]
+    },
+    {
+      "bundle": "event",
+      "label": "Community Event",
+      "description": "Workshops, fundraisers, and community events",
+      "body": true,
+      "fields": [
+        {
+          "id": "event_date",
+          "label": "Event Date",
+          "type": "datetime"
+        },
+        {
+          "id": "end_date",
+          "label": "End Date",
+          "type": "datetime"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "string"
+        },
+        {
+          "id": "event_type",
+          "label": "Event Type",
+          "type": "term(event_types)[]"
+        },
+        {
+          "id": "registration_url",
+          "label": "Registration URL",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Event Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "success_story",
+      "label": "Success Story",
+      "description": "Stories of youth who have been positively impacted",
+      "body": true,
+      "fields": [
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        },
+        {
+          "id": "featured",
+          "label": "Featured",
+          "type": "bool"
+        },
+        {
+          "id": "participant_name",
+          "label": "Participant Name",
+          "type": "string",
+          "description": "Name of the youth participant"
+        },
+        {
+          "id": "program_area",
+          "label": "Program Area",
+          "type": "term(program_areas)[]"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        {
+          "id": "number",
+          "label": "Number",
+          "type": "string!",
+          "description": "The statistic value (e.g., '2,500+', '95%')"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "type": "string!",
+          "description": "What the number represents"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-youth-served",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "2,500+",
+        "label": "Youth Served Annually"
+      }
+    },
+    {
+      "id": "stat-mentors",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "180+",
+        "label": "Active Mentors"
+      }
+    },
+    {
+      "id": "stat-programs",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "25+",
+        "label": "Active Programs"
+      }
+    },
+    {
+      "id": "stat-graduation",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "95%",
+        "label": "High School Graduation Rate"
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to Bright Futures Youth Foundation",
+        "hero_title": "Empowering Young Lives",
+        "hero_subtitle": "Building Tomorrow's Leaders Today",
+        "hero_description": "<p>Bright Futures Youth Foundation provides mentoring, education, and life-skills programs that help young people reach their full potential. Join us in making a lasting difference in our community.</p>",
+        "stats_items": [
+          "@stat-youth-served",
+          "@stat-mentors",
+          "@stat-programs",
+          "@stat-graduation"
+        ],
+        "featured_programs_title": "Our Programs",
+        "cta_title": "Ready to Make a Difference?",
+        "cta_description": "<p>Whether you want to volunteer as a mentor, enroll a young person in our programs, or support our mission with a donation, there are many ways to get involved.</p>",
+        "cta_primary": "Get Involved",
+        "cta_secondary": "Contact Us"
+      }
+    },
+    {
+      "id": "program-stem",
+      "type": "node.program",
+      "path": "/programs/stem-explorers",
+      "values": {
+        "title": "STEM Explorers",
+        "body": "<p>Our STEM Explorers program introduces young people to science, technology, engineering, and mathematics through hands-on projects and real-world problem solving. Participants build robots, code apps, conduct experiments, and develop critical thinking skills that will serve them throughout their lives.</p><h2>Program Highlights</h2><ul><li>Weekly hands-on lab sessions</li><li>Annual science fair competition</li><li>Partnerships with local tech companies</li><li>College preparation workshops</li></ul>",
+        "program_area": ["stem-education"],
+        "age_group": ["teens-13-17"],
+        "schedule": "Tuesdays & Thursdays, 4:00 PM - 6:00 PM",
+        "location": "Bright Futures Community Center",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+          "alt": "STEM Explorers program"
+        }
+      }
+    },
+    {
+      "id": "program-leadership",
+      "type": "node.program",
+      "path": "/programs/leadership-academy",
+      "values": {
+        "title": "Leadership Academy",
+        "body": "<p>The Leadership Academy develops confident, compassionate leaders through team-building challenges, public speaking workshops, community service projects, and mentorship from successful professionals. Participants learn to set goals, resolve conflicts, and inspire positive change.</p><h2>What You'll Gain</h2><ul><li>Public speaking and communication skills</li><li>Team leadership and collaboration</li><li>Community service experience</li><li>Personal goal setting and accountability</li></ul>",
+        "program_area": ["leadership"],
+        "age_group": ["teens-13-17"],
+        "schedule": "Wednesdays, 5:00 PM - 7:00 PM",
+        "location": "Downtown Youth Hub",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+          "alt": "Leadership Academy program"
+        }
+      }
+    },
+    {
+      "id": "program-arts",
+      "type": "node.program",
+      "path": "/programs/creative-arts-workshop",
+      "values": {
+        "title": "Creative Arts Workshop",
+        "body": "<p>Our Creative Arts Workshop provides a safe space for young people to express themselves through painting, music, theater, and digital media. Guided by professional artists, participants discover their creative talents and build self-confidence through artistic achievement.</p><h2>Activities</h2><ul><li>Visual arts and painting studios</li><li>Music production and performance</li><li>Theater and drama workshops</li><li>Digital photography and filmmaking</li></ul>",
+        "program_area": ["arts-culture"],
+        "age_group": ["children-6-12", "teens-13-17"],
+        "schedule": "Mondays & Fridays, 3:30 PM - 5:30 PM",
+        "location": "Bright Futures Arts Center",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+          "alt": "Creative Arts Workshop"
+        }
+      }
+    },
+    {
+      "id": "program-tutoring",
+      "type": "node.program",
+      "path": "/programs/academic-tutoring",
+      "values": {
+        "title": "Academic Tutoring & Homework Help",
+        "body": "<p>Our Academic Tutoring program pairs trained volunteer tutors with students who need extra support in reading, math, and other subjects. We provide a quiet, encouraging environment where young people can build academic confidence and develop strong study habits.</p><h2>Services</h2><ul><li>One-on-one and small group tutoring</li><li>Homework help and study skills</li><li>Test preparation for standardized exams</li><li>College application assistance</li></ul>",
+        "program_area": ["academic-support"],
+        "age_group": ["children-6-12", "teens-13-17"],
+        "schedule": "Monday - Thursday, 3:00 PM - 6:00 PM",
+        "location": "Bright Futures Learning Center",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+          "alt": "Academic Tutoring program"
+        }
+      }
+    },
+    {
+      "id": "mentor-williams",
+      "type": "node.mentor",
+      "path": "/mentors/marcus-williams",
+      "values": {
+        "title": "Marcus Williams",
+        "body": "<p>Marcus is a software engineer and passionate advocate for youth STEM education. He has been volunteering with Bright Futures for over five years, helping dozens of young people discover their love of technology and coding. His patient, hands-on approach makes complex topics accessible and fun.</p>",
+        "specialty": "STEM Education & Coding",
+        "email": "marcus@brightfutures.org",
+        "phone": "(555) 301-4567",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+          "alt": "Marcus Williams - Mentor"
+        },
+        "years_experience": 5
+      }
+    },
+    {
+      "id": "mentor-chen",
+      "type": "node.mentor",
+      "path": "/mentors/lisa-chen",
+      "values": {
+        "title": "Lisa Chen",
+        "body": "<p>Lisa is a high school guidance counselor and certified youth development specialist. She brings her professional expertise to her volunteer role, helping teens navigate academic challenges, set career goals, and build the confidence they need to succeed.</p>",
+        "specialty": "Academic Mentoring & College Prep",
+        "email": "lisa@brightfutures.org",
+        "phone": "(555) 302-5678",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+          "alt": "Lisa Chen - Mentor"
+        },
+        "years_experience": 8
+      }
+    },
+    {
+      "id": "mentor-rodriguez",
+      "type": "node.mentor",
+      "path": "/mentors/carlos-rodriguez",
+      "values": {
+        "title": "Carlos Rodriguez",
+        "body": "<p>Carlos is a professional musician and music educator who leads our creative arts mentoring track. A former program participant himself, Carlos understands firsthand the transformative power of mentorship and creative expression. He inspires young people to find their voice through art and music.</p>",
+        "specialty": "Creative Arts & Music",
+        "email": "carlos@brightfutures.org",
+        "phone": "(555) 303-6789",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+          "alt": "Carlos Rodriguez - Mentor"
+        },
+        "years_experience": 6
+      }
+    },
+    {
+      "id": "mentor-thompson",
+      "type": "node.mentor",
+      "path": "/mentors/sarah-thompson",
+      "values": {
+        "title": "Sarah Thompson",
+        "body": "<p>Sarah is a community organizer and leadership coach with a background in social work. She leads our Leadership Academy mentoring track, helping young people develop communication skills, civic engagement, and a sense of personal responsibility.</p>",
+        "specialty": "Leadership & Community Engagement",
+        "email": "sarah@brightfutures.org",
+        "phone": "(555) 304-7890",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+          "alt": "Sarah Thompson - Mentor"
+        },
+        "years_experience": 10
+      }
+    },
+    {
+      "id": "event-gala",
+      "type": "node.event",
+      "path": "/events/annual-gala-2026",
+      "values": {
+        "title": "Annual Bright Futures Gala",
+        "body": "<p>Join us for an inspiring evening celebrating the achievements of our youth participants and the generous supporters who make our work possible. The gala features dinner, live entertainment by our Creative Arts Workshop students, and a silent auction with proceeds benefiting our scholarship fund.</p><h2>Event Details</h2><ul><li>6:00 PM - Cocktail Reception</li><li>7:00 PM - Dinner & Program</li><li>8:30 PM - Student Performances</li><li>9:00 PM - Silent Auction</li></ul>",
+        "event_date": "2026-05-16T18:00:00",
+        "end_date": "2026-05-16T22:00:00",
+        "location": "Grand Ballroom, City Convention Center",
+        "event_type": ["fundraiser"],
+        "registration_url": "https://brightfutures.org/gala-2026",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+          "alt": "Annual Bright Futures Gala"
+        }
+      }
+    },
+    {
+      "id": "event-summer-camp",
+      "type": "node.event",
+      "path": "/events/summer-camp-2026",
+      "values": {
+        "title": "Summer Adventure Camp 2026",
+        "body": "<p>Our week-long summer camp combines outdoor adventure, team building, and skill-building workshops in a fun, supportive environment. Campers will enjoy hiking, canoeing, arts and crafts, and leadership activities under the guidance of trained counselors and mentors.</p><p>Scholarships are available for families who qualify. No child will be turned away due to inability to pay.</p>",
+        "event_date": "2026-07-13T08:00:00",
+        "end_date": "2026-07-17T16:00:00",
+        "location": "Pine Ridge Outdoor Center",
+        "event_type": ["camp"],
+        "registration_url": "https://brightfutures.org/summer-camp",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=800&q=80",
+          "alt": "Summer Adventure Camp"
+        }
+      }
+    },
+    {
+      "id": "event-mentor-training",
+      "type": "node.event",
+      "path": "/events/mentor-orientation-spring",
+      "values": {
+        "title": "Spring Mentor Orientation",
+        "body": "<p>Interested in becoming a mentor? Join our spring orientation session to learn about our programs, mentoring best practices, and the rewarding experience of guiding young people toward success. All new volunteers must complete this orientation before being paired with a mentee.</p><h2>Agenda</h2><ul><li>9:00 AM - Welcome & Foundation Overview</li><li>10:00 AM - Mentoring Best Practices</li><li>11:30 AM - Safety Training</li><li>12:30 PM - Lunch & Networking</li><li>1:30 PM - Program Placement</li></ul>",
+        "event_date": "2026-04-11T09:00:00",
+        "end_date": "2026-04-11T15:00:00",
+        "location": "Bright Futures Community Center",
+        "event_type": ["workshop"],
+        "registration_url": "https://brightfutures.org/mentor-orientation",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&q=80",
+          "alt": "Mentor Orientation"
+        }
+      }
+    },
+    {
+      "id": "story-jaylen",
+      "type": "node.success_story",
+      "path": "/success-stories/jaylen-finds-his-passion",
+      "values": {
+        "title": "Jaylen Finds His Passion for Coding",
+        "body": "<p>When Jaylen joined our STEM Explorers program at age 14, he was struggling in school and lacked direction. Through patient mentoring from Marcus Williams and the hands-on coding projects in our program, Jaylen discovered a natural talent for programming.</p><p>\"Before Bright Futures, I didn't think college was for me,\" Jaylen says. \"My mentor showed me that I could build things with code, and that changed everything.\"</p><p>Today, Jaylen is a sophomore at State University studying computer science on a full scholarship. He returns to Bright Futures every summer to mentor younger participants.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+          "alt": "Jaylen coding at his computer"
+        },
+        "featured": true,
+        "participant_name": "Jaylen M.",
+        "program_area": ["stem-education"]
+      }
+    },
+    {
+      "id": "story-maria",
+      "type": "node.success_story",
+      "path": "/success-stories/maria-leads-the-way",
+      "values": {
+        "title": "Maria Leads the Way",
+        "body": "<p>Maria was a shy 12-year-old when she first walked through our doors. Through the Leadership Academy, she gradually found her voice and discovered a passion for community service. Her mentor, Sarah Thompson, helped her develop the confidence to speak up and take initiative.</p><p>By her senior year of high school, Maria had organized three community clean-up events, started a peer tutoring group, and been elected student body president. She credits the Leadership Academy with giving her the tools to lead.</p><p>\"Bright Futures didn't just give me a mentor,\" Maria explains. \"They gave me a family that believed in me when I didn't believe in myself.\"</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+          "alt": "Maria speaking at a community event"
+        },
+        "featured": true,
+        "participant_name": "Maria G.",
+        "program_area": ["leadership"]
+      }
+    },
+    {
+      "id": "story-devon",
+      "type": "node.success_story",
+      "path": "/success-stories/devon-art-transformation",
+      "values": {
+        "title": "Devon's Artistic Transformation",
+        "body": "<p>Devon came to the Creative Arts Workshop dealing with anger and behavioral issues at school. Art gave him an outlet to express his emotions constructively. Under the guidance of mentor Carlos Rodriguez, Devon channeled his energy into painting and digital art.</p><p>His artwork was selected for the city's youth art exhibition, and he won a regional competition that earned him a scholarship to the School of Visual Arts summer program. Devon now aspires to become a graphic designer.</p><p>\"Art saved me,\" Devon says simply. \"Carlos taught me that my feelings could become something beautiful.\"</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+          "alt": "Devon working on artwork"
+        },
+        "featured": false,
+        "participant_name": "Devon T.",
+        "program_area": ["arts-culture"]
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Bright Futures Youth Foundation",
+        "body": "<p>Founded in 2008, Bright Futures Youth Foundation has been transforming young lives in our community through mentoring, education, and enrichment programs. Our mission is to empower youth ages 6-18 with the skills, confidence, and support they need to thrive.</p><h2>Our Mission</h2><p>To provide every young person with access to caring mentors, quality programs, and opportunities that help them discover their potential and build a bright future.</p><h2>Our Values</h2><ul><li><strong>Empowerment</strong> - We believe every young person has unique strengths and potential.</li><li><strong>Community</strong> - We build strong, supportive relationships between youth, mentors, and families.</li><li><strong>Equity</strong> - We ensure all young people have access to our programs regardless of background.</li><li><strong>Excellence</strong> - We hold ourselves to the highest standards in youth development.</li></ul><h2>Our Impact</h2><p>Since 2008, Bright Futures has served over 10,000 young people. 95% of our program participants graduate high school, and 78% go on to college or vocational training. We are proud to have received the National Youth Development Organization of the Year award in 2023.</p>"
+      }
+    },
+    {
+      "id": "page-volunteer",
+      "type": "node.page",
+      "path": "/volunteer",
+      "values": {
+        "title": "Volunteer With Us",
+        "body": "<h2>Become a Mentor</h2><p>Our mentors are the heart of everything we do. As a Bright Futures mentor, you'll be matched with a young person based on shared interests and goals. You'll meet regularly, provide guidance, and serve as a positive role model.</p><h2>Requirements</h2><ul><li>Must be at least 21 years old</li><li>Commit to at least 6 months of mentoring</li><li>Pass a background check</li><li>Complete our mentor training program</li><li>Meet with your mentee at least twice per month</li></ul><h2>Other Volunteer Opportunities</h2><ul><li><strong>Tutoring</strong> - Help students with homework and study skills</li><li><strong>Event Support</strong> - Assist with fundraisers and community events</li><li><strong>Workshop Leaders</strong> - Share your professional skills with our youth</li><li><strong>Board Membership</strong> - Help guide our organization's strategic direction</li></ul><p>Ready to get started? Contact our volunteer coordinator at volunteers@brightfutures.org or call (555) 300-1234.</p>"
+      }
+    }
+  ]
+}

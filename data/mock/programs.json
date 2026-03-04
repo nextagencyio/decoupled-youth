@@ -1,0 +1,217 @@
+{
+  "data": {
+    "nodePrograms": {
+      "__typename": "NodeProgramConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProgram",
+          "id": "program-stem",
+          "title": "STEM Explorers",
+          "path": "/programs/stem-explorers",
+          "body": {
+            "processed": "<p>Our STEM Explorers program introduces young people to science, technology, engineering, and mathematics through hands-on projects and real-world problem solving. Participants build robots, code apps, conduct experiments, and develop critical thinking skills that will serve them throughout their lives.</p><h2>Program Highlights</h2><ul><li>Weekly hands-on lab sessions</li><li>Annual science fair competition</li><li>Partnerships with local tech companies</li><li>College preparation workshops</li></ul>",
+            "summary": "Our STEM Explorers program introduces young people to science, technology, engineering, and mathematics through hands-on projects and real-world problem solving. Participants build robots, code apps, "
+          },
+          "programArea": [
+            {
+              "id": "stem-education",
+              "name": "stem-education"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Tuesdays & Thursdays, 4:00 PM - 6:00 PM",
+          "location": "Bright Futures Community Center",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+            "alt": "STEM Explorers program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-leadership",
+          "title": "Leadership Academy",
+          "path": "/programs/leadership-academy",
+          "body": {
+            "processed": "<p>The Leadership Academy develops confident, compassionate leaders through team-building challenges, public speaking workshops, community service projects, and mentorship from successful professionals. Participants learn to set goals, resolve conflicts, and inspire positive change.</p><h2>What You'll Gain</h2><ul><li>Public speaking and communication skills</li><li>Team leadership and collaboration</li><li>Community service experience</li><li>Personal goal setting and accountability</li></ul>",
+            "summary": "The Leadership Academy develops confident, compassionate leaders through team-building challenges, public speaking workshops, community service projects, and mentorship from successful professionals. "
+          },
+          "programArea": [
+            {
+              "id": "leadership",
+              "name": "leadership"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Wednesdays, 5:00 PM - 7:00 PM",
+          "location": "Downtown Youth Hub",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+            "alt": "Leadership Academy program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-arts",
+          "title": "Creative Arts Workshop",
+          "path": "/programs/creative-arts-workshop",
+          "body": {
+            "processed": "<p>Our Creative Arts Workshop provides a safe space for young people to express themselves through painting, music, theater, and digital media. Guided by professional artists, participants discover their creative talents and build self-confidence through artistic achievement.</p><h2>Activities</h2><ul><li>Visual arts and painting studios</li><li>Music production and performance</li><li>Theater and drama workshops</li><li>Digital photography and filmmaking</li></ul>",
+            "summary": "Our Creative Arts Workshop provides a safe space for young people to express themselves through painting, music, theater, and digital media. Guided by professional artists, participants discover their"
+          },
+          "programArea": [
+            {
+              "id": "arts-culture",
+              "name": "arts-culture"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "children-6-12",
+              "name": "children-6-12"
+            },
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Mondays & Fridays, 3:30 PM - 5:30 PM",
+          "location": "Bright Futures Arts Center",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Creative Arts Workshop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-tutoring",
+          "title": "Academic Tutoring & Homework Help",
+          "path": "/programs/academic-tutoring",
+          "body": {
+            "processed": "<p>Our Academic Tutoring program pairs trained volunteer tutors with students who need extra support in reading, math, and other subjects. We provide a quiet, encouraging environment where young people can build academic confidence and develop strong study habits.</p><h2>Services</h2><ul><li>One-on-one and small group tutoring</li><li>Homework help and study skills</li><li>Test preparation for standardized exams</li><li>College application assistance</li></ul>",
+            "summary": "Our Academic Tutoring program pairs trained volunteer tutors with students who need extra support in reading, math, and other subjects. We provide a quiet, encouraging environment where young people c"
+          },
+          "programArea": [
+            {
+              "id": "academic-support",
+              "name": "academic-support"
+            }
+          ],
+          "ageGroup": [
+            {
+              "id": "children-6-12",
+              "name": "children-6-12"
+            },
+            {
+              "id": "teens-13-17",
+              "name": "teens-13-17"
+            }
+          ],
+          "schedule": "Monday - Thursday, 3:00 PM - 6:00 PM",
+          "location": "Bright Futures Learning Center",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Academic Tutoring program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

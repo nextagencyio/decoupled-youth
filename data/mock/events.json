@@ -1,0 +1,159 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Annual Bright Futures Gala",
+          "path": "/events/annual-gala-2026",
+          "body": {
+            "processed": "<p>Join us for an inspiring evening celebrating the achievements of our youth participants and the generous supporters who make our work possible. The gala features dinner, live entertainment by our Creative Arts Workshop students, and a silent auction with proceeds benefiting our scholarship fund.</p><h2>Event Details</h2><ul><li>6:00 PM - Cocktail Reception</li><li>7:00 PM - Dinner & Program</li><li>8:30 PM - Student Performances</li><li>9:00 PM - Silent Auction</li></ul>",
+            "summary": "Join us for an inspiring evening celebrating the achievements of our youth participants and the generous supporters who make our work possible. The gala features dinner, live entertainment by our Crea"
+          },
+          "eventDate": {
+            "timestamp": 1778972400
+          },
+          "endDate": {
+            "timestamp": 1778986800
+          },
+          "location": "Grand Ballroom, City Convention Center",
+          "eventType": [
+            {
+              "id": "fundraiser",
+              "name": "fundraiser"
+            }
+          ],
+          "registrationUrl": "https://brightfutures.org/gala-2026",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Annual Bright Futures Gala",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-summer-camp",
+          "title": "Summer Adventure Camp 2026",
+          "path": "/events/summer-camp-2026",
+          "body": {
+            "processed": "<p>Our week-long summer camp combines outdoor adventure, team building, and skill-building workshops in a fun, supportive environment. Campers will enjoy hiking, canoeing, arts and crafts, and leadership activities under the guidance of trained counselors and mentors.</p><p>Scholarships are available for families who qualify. No child will be turned away due to inability to pay.</p>",
+            "summary": "Our week-long summer camp combines outdoor adventure, team building, and skill-building workshops in a fun, supportive environment. Campers will enjoy hiking, canoeing, arts and crafts, and leadership"
+          },
+          "eventDate": {
+            "timestamp": 1783947600
+          },
+          "endDate": {
+            "timestamp": 1784322000
+          },
+          "location": "Pine Ridge Outdoor Center",
+          "eventType": [
+            {
+              "id": "camp",
+              "name": "camp"
+            }
+          ],
+          "registrationUrl": "https://brightfutures.org/summer-camp",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=800&q=80",
+            "alt": "Summer Adventure Camp",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472745942893-4b9f730c7668?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-mentor-training",
+          "title": "Spring Mentor Orientation",
+          "path": "/events/mentor-orientation-spring",
+          "body": {
+            "processed": "<p>Interested in becoming a mentor? Join our spring orientation session to learn about our programs, mentoring best practices, and the rewarding experience of guiding young people toward success. All new volunteers must complete this orientation before being paired with a mentee.</p><h2>Agenda</h2><ul><li>9:00 AM - Welcome & Foundation Overview</li><li>10:00 AM - Mentoring Best Practices</li><li>11:30 AM - Safety Training</li><li>12:30 PM - Lunch & Networking</li><li>1:30 PM - Program Placement</li></ul>",
+            "summary": "Interested in becoming a mentor? Join our spring orientation session to learn about our programs, mentoring best practices, and the rewarding experience of guiding young people toward success. All new"
+          },
+          "eventDate": {
+            "timestamp": 1775916000
+          },
+          "endDate": {
+            "timestamp": 1775937600
+          },
+          "location": "Bright Futures Community Center",
+          "eventType": [
+            {
+              "id": "workshop",
+              "name": "workshop"
+            }
+          ],
+          "registrationUrl": "https://brightfutures.org/mentor-orientation",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&q=80",
+            "alt": "Mentor Orientation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

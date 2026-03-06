@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-youth-served",
               "title": "",
-              "number": "2,500+",
+              "number": "2,500+", "value": "2,500+",
               "label": "Youth Served Annually"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-mentors",
               "title": "",
-              "number": "180+",
+              "number": "180+", "value": "180+",
               "label": "Active Mentors"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-programs",
               "title": "",
-              "number": "25+",
+              "number": "25+", "value": "25+",
               "label": "Active Programs"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-graduation",
               "title": "",
-              "number": "95%",
+              "number": "95%", "value": "95%",
               "label": "High School Graduation Rate"
             }
           ],

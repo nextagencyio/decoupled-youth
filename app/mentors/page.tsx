@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import MentorCard from '../components/MentorCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Mentors | Bright Futures Youth Center',

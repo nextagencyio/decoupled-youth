@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_SUCCESS_STORIES } from '@/lib/queries'
 import { SuccessStoriesData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getSuccessStories() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<SuccessStoriesData>({
-      query: GET_SUCCESS_STORIES,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_SUCCESS_STORIES, { first: 50 })
     return data?.nodeSuccessStories?.nodes || []
   } catch (error) {
     console.error('Error fetching success stories:', error)

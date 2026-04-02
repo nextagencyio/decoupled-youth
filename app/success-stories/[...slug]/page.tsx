@@ -24,7 +24,7 @@ interface SuccessStoryByPathData {
 async function getSuccessStory(path: string): Promise<DrupalSuccessStory | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_SUCCESS_STORY_BY_PATH, { path })
+    const data = await client.raw(GET_SUCCESS_STORY_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching success story:', error)

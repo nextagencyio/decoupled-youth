@@ -4,6 +4,7 @@ import ErrorBoundary from '../components/ErrorBoundary'
 import HomepageRenderer from '../components/HomepageRenderer'
 import ResponsiveImage from '../components/ResponsiveImage'
 import { Metadata } from 'next'
+import { GET_NODE_BY_PATH } from '@/lib/queries'
 
 export const revalidate = 300
 export const dynamic = 'force-dynamic'
@@ -13,8 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const path = `/${(resolvedParams.slug || []).join('/')}`
   try {
     const client = getClient()
-    const page = await client.getEntryByPath(path)
-    const title = (page as any)?.title || 'Page'
+    const data = await client.raw(GET_NODE_BY_PATH, { path }) as any
+    const page = data?.route?.entity
+    const title = page?.title || 'Page'
     return { title }
   } catch {
     return { title: 'Page' }
@@ -39,7 +41,8 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
   const client = getClient()
 
   try {
-    const entity = await client.getEntryByPath(path) as any
+    const rawData = await client.raw(GET_NODE_BY_PATH, { path }) as any
+    const entity = rawData?.route?.entity
     if (!entity) {
       return (
         <div className="min-h-screen bg-blue-50">

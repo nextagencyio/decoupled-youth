@@ -68,8 +68,6 @@ export const GET_PROGRAMS = gql`
             variations(styles: [LARGE, MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -146,8 +144,6 @@ export const GET_MENTORS = gql`
             variations(styles: [MEDIUM, THUMBNAIL]) {
               name
               url
-              width
-              height
             }
           }
           yearsExperience
@@ -227,8 +223,6 @@ export const GET_EVENTS = gql`
             variations(styles: [LARGE, MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -306,8 +300,6 @@ export const GET_SUCCESS_STORIES = gql`
             variations(styles: [LARGE, MEDIUM, THUMBNAIL]) {
               name
               url
-              width
-              height
             }
           }
           featured
@@ -541,8 +533,6 @@ export const GET_FEATURED_PROGRAMS = gql`
             variations(styles: [MEDIUM]) {
               name
               url
-              width
-              height
             }
           }
         }
@@ -572,8 +562,6 @@ export const GET_FEATURED_STORIES = gql`
             variations(styles: [MEDIUM, THUMBNAIL]) {
               name
               url
-              width
-              height
             }
           }
           featured

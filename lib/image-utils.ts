@@ -64,7 +64,7 @@ export function getImageDimensions(
   
   // Try to find the preferred size variation
   const preferredVariation = image.variations?.find(v => v.name === preferredSize)
-  if (preferredVariation) {
+  if (preferredVariation && preferredVariation.width != null && preferredVariation.height != null) {
     return {
       width: preferredVariation.width,
       height: preferredVariation.height
@@ -92,7 +92,9 @@ export function generateSrcSet(image: DrupalImage | undefined): string {
   
   // Add variations to srcSet
   image.variations.forEach(variation => {
-    srcSetEntries.push(`${proxyDrupalUrl(variation.url)} ${variation.width}w`)
+    if (variation.width != null) {
+      srcSetEntries.push(`${proxyDrupalUrl(variation.url)} ${variation.width}w`)
+    }
   })
   
   // Add original image as largest option

@@ -10,8 +10,8 @@ export interface DrupalImage {
 export interface ImageVariation {
   name: string
   url: string
-  width: number
-  height: number
+  width?: number
+  height?: number
 }
 
 export interface DrupalTerm {
